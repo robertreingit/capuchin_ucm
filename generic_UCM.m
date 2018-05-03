@@ -50,7 +50,7 @@ for trial = 1:NO_TRIALS
     % vector orthogonal to UCM.
     Omega_o_i = dOmega - Omega_p_i;
     
-    % calculate variation per parameter
+    % calculate variation per parameter #!#
     Omega_p = Omega_p + Omega_p_i.^2;
     Omega_o = Omega_o + Omega_o_i.^2;
     
