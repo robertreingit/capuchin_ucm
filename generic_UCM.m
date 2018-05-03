@@ -5,7 +5,7 @@ function ucm_res = generic_UCM(Jacobian, params, take_sqrt)
 %       Indentifying control variables for a functional task,
 %       Exp Brain Res, 126: 289-306.
 % In the orginal paper, the square-root of the squared and summed variance 
-% was taken before furher analysis, however, in more recent analysis this.
+% was taken before further analysis, however, in more recent analysis this.
 % is not the case any more. Therefore, the last parameter specifies
 % whether the square root of the raw values should be taken.
 % 
